@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@drawable/bikepark"
+    android:background="@color/colorAccent"
     >
 
     <LinearLayout
@@ -24,8 +24,10 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:ems="10"
+            android:background="@drawable/edit_text"
             android:gravity="center"
             android:hint="Email"
+            android:layout_marginTop="10dp"
             android:inputType="textEmailAddress" />
 
 
@@ -35,17 +37,31 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:ems="10"
+            android:background="@drawable/edit_text"
             android:gravity="center"
             android:hint="Senha"
+            android:layout_marginTop="10dp"
             android:inputType="textPassword" />
 
         <Button
             android:id="@+id/btLogin"
-            android:layout_width="90dp"
+            android:layout_width="100dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:text="@string/login"
-            android:textColor="#ffff" />
+            android:textColor="#ffff"
+            android:background="@drawable/button"/>
+
+        <TextView
+            android:id="@+id/abreCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#ffff"
+            android:text="Não tem cadastro? Clique aqui!"
+            android:textSize="15sp"/>
+
     </LinearLayout>
 </RelativeLayout>

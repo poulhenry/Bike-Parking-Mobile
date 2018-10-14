@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "520426301369",
+    "firebase_url": "https://bikeparkn.firebaseio.com",
+    "project_id": "bikeparkn",
+    "storage_bucket": "bikeparkn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520426301369:android:6f85c4006c4fc9fa",
+        "android_client_info": {
+          "package_name": "com.example.rick.bikepark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520426301369-ig4824tlq5v1ievf5shbp5fcqbf3nfic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rick.bikepark",
+            "certificate_hash": "3e6732cac9cf00615d74d9422c62e0a61c8c4592"
+          }
+        },
+        {
+          "client_id": "520426301369-2kh5p40v3kb3uif1l99c784ak3u8td70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr63_F8Ywxulo0cx8CDwnJnAVL5aYYHC4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520426301369-2kh5p40v3kb3uif1l99c784ak3u8td70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

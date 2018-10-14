@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".CadastroActivity"
+    android:background="@color/colorAccent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="100dp">
+
+            <EditText
+                android:id="@+id/nome"
+                android:layout_width="match_parent"
+                android:hint="Nome"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                android:inputType="textCapCharacters"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/senha"
+                android:layout_width="match_parent"
+                android:hint="Senha"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/senha2"
+                android:layout_width="match_parent"
+                android:hint="Confirme a Senha"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:hint="Email"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edit_text"
+                android:layout_marginTop="10dp"
+                android:inputType="textEmailAddress"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/btCadastrar"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:textColor="#ffff"
+                android:text="Cadastrar"
+                android:background="@drawable/button"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
