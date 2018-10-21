@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
-                    Intent intentMap = new Intent(LoginActivity.this, BikeMapActivity.class);
+                    Intent intentMap = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intentMap);
                     Toast.makeText(LoginActivity.this, "Login efetuado", Toast.LENGTH_SHORT).show();
                 } else {
