@@ -6,7 +6,13 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_sugest"
-            android:title="Sugestões" />
+            android:title="Sugestões de locais"
+            android:icon="@drawable/sugest"/>
+
+        <item
+            android:id="@+id/nav_feed"
+            android:title="Feedback"
+            android:icon="@drawable/feedback"/>
 
         <item
             android:id="@+id/nav_manage"

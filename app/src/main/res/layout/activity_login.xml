@@ -20,10 +20,10 @@
         tools:layout_editor_absoluteY="8dp">
 
         <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
             android:layout_gravity="center"
-            android:src="@mipmap/ic_launcher_round" />
+            android:src="@drawable/logo_transparent" />
 
         <EditText
             android:id="@+id/tLogin"
@@ -66,7 +66,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:textColor="#ffff"
             android:text="Não tem cadastro? Clique aqui!"
             android:textSize="15sp"/>
 

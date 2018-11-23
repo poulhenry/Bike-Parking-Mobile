@@ -18,10 +18,8 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        tView = (TextView) findViewById(R.id.text_logo);
         tImage = (ImageView) findViewById(R.id.img_logo);
         Animation animacao = AnimationUtils.loadAnimation(this, R.anim.transition);
-        tView.startAnimation(animacao);
         tImage.startAnimation(animacao);
         final Intent intent = new Intent(this, LoginActivity.class);
         Thread timer = new Thread() {
