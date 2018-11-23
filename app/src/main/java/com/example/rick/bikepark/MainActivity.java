@@ -1,6 +1,7 @@
 package com.example.rick.bikepark;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
@@ -116,7 +117,8 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_sugest) {
-            // Handle the camera action
+            Intent intent = new Intent(MainActivity.this, Sugestoes.class);
+            startActivity(intent);
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_exit) {

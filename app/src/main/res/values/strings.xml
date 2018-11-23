@@ -13,4 +13,6 @@
     <string name="nav_header_subtitle">usuario@bikeparkn.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings"></string>
+    <string name="title_activity_sugestoes">Sugestões de Local</string>
+    <string name="button_susgestao">Enviar Sugestão</string>
 </resources>
