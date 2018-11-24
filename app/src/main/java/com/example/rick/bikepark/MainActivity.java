@@ -119,8 +119,9 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_sugest) {
             Intent intent = new Intent(MainActivity.this, Sugestoes.class);
             startActivity(intent);
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.nav_feed) {
+            Intent intent = new Intent(MainActivity.this, Feedback.class);
+            startActivity(intent);
         } else if (id == R.id.nav_exit) {
 
         }

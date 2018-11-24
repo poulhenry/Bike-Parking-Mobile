@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/feedbacktransparent" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="Digite aqui..."
+            android:ems="10"
+            android:gravity="center"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="10dp"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btEnviar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Enviar"
+            android:textColor="#ffff"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

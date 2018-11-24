@@ -26,11 +26,11 @@
             android:name=".BikeMapActivity"
             android:label="@string/title_activity_bike_map"
             android:theme="@style/AppTheme" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".CadastroActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main"></activity>
+            android:label="@string/title_activity_main" />
         <activity
             android:name=".Splash"
             android:theme="@style/AppTheme.NoActionBar">
@@ -43,7 +43,12 @@
         <activity
             android:name=".Sugestoes"
             android:label="@string/title_activity_sugestoes"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback">
+
+        </activity>
     </application>
 
 </manifest>
