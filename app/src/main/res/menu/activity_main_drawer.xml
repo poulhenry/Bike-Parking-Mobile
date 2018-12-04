@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sugest"
+            android:title="Sugestões de locais"
+            android:icon="@drawable/sugest"/>
+
+        <item
+            android:id="@+id/nav_feed"
+            android:title="Feedback"
+            android:icon="@drawable/feedback"/>
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configurações" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="Sair"/>
+    </group>
+
+
+
+</menu>

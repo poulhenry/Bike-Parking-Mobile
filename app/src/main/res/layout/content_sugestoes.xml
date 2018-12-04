@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Sugestoes"
+    tools:showIn="@layout/activity_sugestoes">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sugestoes"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/tEndereco"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/tReferencia"
+        android:layout_marginBottom="137dp"
+        android:layout_marginStart="11dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Endereço"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tBairro"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="230dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Bairro"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tReferencia"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Referência"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

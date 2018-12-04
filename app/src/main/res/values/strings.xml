@@ -6,4 +6,13 @@
     <string name="login">Login</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="title_activity_main">Bike Parkn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Usuario</string>
+    <string name="nav_header_subtitle">usuario@bikeparkn.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings"></string>
+    <string name="title_activity_sugestoes">Sugestões de Local</string>
+    <string name="button_susgestao">Enviar Sugestão</string>
 </resources>
